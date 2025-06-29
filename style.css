@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+body {
+font-family: 'Raleway', sans-serif;
+background-color: #0a0a0a;
+}
+
+
+
+
+.banner{
+    background-image: radial-gradient(rgb(0, 0, 0, 0.25), rgba(0, 146, 204, 0.25)),  url(assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.logo{
+    width: 240px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.30);
+    margin: auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    display: flex;
+    
+}
+
+.logo img{
+    width: 245px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h1{
+    background: linear-gradient(90deg, #00b6b6, #0092cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.banner-content p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 15px;
+    width: 490px
+}
+
+.banner-content button{
+    margin-top: 35px;
+    width: 300px;
+    height: 50px;
+    color: #0092cc;
+    border: 3px solid #0092cc;
+    font-family: 'Raleway';
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    border: 2px solid #0092cc;
+    align-items: center;
+    justify-content: center;
+    padding: 175px;
+}
+
+#course-content h2{
+    text-align: center;
+    color: #0092cc;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-transform: uppercase;
+    font-size: 37px;
+    margin-bottom: 50px;
+}
+#course-content p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Raleway';
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.modules-list .module{
+    border: 2px solid #0092cc;
+    width: 600px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 40px;
+    color: #ffffff;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.module span{
+    color: #0092cc;
+}
+
+#transform-world{
+    display: flex;
+    border: 2px solid #0092cc;
+    padding: 175px;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+#transform-world p{
+    color: #ffffff;
+    width: 280px;
+    font-size: 45px;
+    text-transform: lowercase;
+    font-weight: bold;
+    text-shadow: 4px 4px  #0092cc
+}
+
+#professional-challenges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid #0092cc;
+    padding: 200px;
+}
+
+#professional-challenges h2{
+    color:#0092cc;
+    text-transform: uppercase;
+    text-align: center;
+    width: 750px;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+#professional-challenges p{
+    color: #ffffff;
+    text-align: center;
+    width: 750px;
+    margin-top: 75px;
+    font-weight: lighter;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#ffffff;
+    font-weight: 400;
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(51, 168, 219, 0.3) 99.99%, rgb(8, 114, 160) 100%);
+}
+
+footer a{
+    color:#0092cc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
